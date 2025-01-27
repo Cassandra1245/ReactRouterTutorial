@@ -1,16 +1,16 @@
 import React from 'react';
-import { Container, Row, Col, Image, Button } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 import './Layout.css';
 import { Outlet } from 'react-router';
 
-const Layout = () => {
+const LayoutCases = () => {
     return (
         <div className="App">
             <header>
                 <ul>
-                    <li><a href="/" >Acerca de mi</a></li>
-                    <li><a href="/Formulario " >Formulario</a></li>
-                    <li><a href="/Perfil" >Perfil</a></li>
+                    <li><a href="/Clients" >Bio</a></li>
+                    <li><a href="/Achievmets " >Logros</a><li>
+                    <li><a href="/Colaboration" >Como colaborar </a></li>
                 </ul>
             </header>
 
@@ -21,7 +21,6 @@ const Layout = () => {
                             <Outlet />
                         </Col>
                     </Row>
-
                 </Container>
             </section>
 
@@ -31,4 +30,4 @@ const Layout = () => {
         </div>
     );
 };
-export default Layout;
+export default LayoutCases;

@@ -8,7 +8,6 @@ const Layout = () => {
         <div className="App">
             <header>
                 <ul>
-                    <li><a href="/" >Acerca de mi</a></li>
                     <li><a href="/Formulario " >Formulario</a></li>
                     <li><a href="/Perfil" >Perfil</a></li>
                 </ul>

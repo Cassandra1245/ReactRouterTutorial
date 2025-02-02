@@ -8,9 +8,9 @@ const LayoutCases = () => {
         <div className="App">
             <header>
                 <ul>
-                    <li><a href="/SocialNet" >Redes sociales</a></li>
-                    <li><a href="/Message " >Deja un mensaje</a></li>
-                    <li><a href="/Call" >Llamame</a></li>
+                    <li><a href="/Contact/Call" >Llamame</a></li>
+                    <li><a href="/Contact/Message" >Deja un mensaje</a></li>
+                    <li><a href="/Contact/SocialNet" >Redes sociales</a></li>
                 </ul>
             </header>
 

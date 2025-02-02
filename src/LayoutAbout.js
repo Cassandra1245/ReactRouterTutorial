@@ -8,9 +8,9 @@ const LayoutAbout = () => {
         <div className="App">
             <header>
                 <ul>
-                    <li><a href="/Bio" >Bio</a></li>
-                    <li><a href="/Job " >Trabajo</a></li>
-                    <li><a href="/ProfesionalTips" >Tips de profesional</a></li>
+                    <li><a href="/AboutMe/Bio" >Bio</a></li>
+                    <li><a href="/AboutMe/Job " >Trabajo</a></li>
+                    <li><a href="/AboutMe/ProfesionalTips" >Tips de profesional</a></li>
                 </ul>
             </header>
 

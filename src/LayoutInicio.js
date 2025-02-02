@@ -8,9 +8,8 @@ const Layout = () => {
         <div className="App">
             <header>
                 <ul>
-                    <li><a href="/" >Acerca de mi</a></li>
-                    <li><a href="/Formulario " >Formulario</a></li>
-                    <li><a href="/Perfil" >Perfil</a></li>
+                    <li><a href="/Start/Form" >Formulario</a></li>
+                    <li><a href="/Start/Profile " >Perfil</a></li>
                 </ul>
             </header>
 

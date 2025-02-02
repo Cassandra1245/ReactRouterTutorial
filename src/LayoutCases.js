@@ -8,9 +8,9 @@ const LayoutCases = () => {
         <div className="App">
             <header>
                 <ul>
-                    <li><a href="/Clients" >Clientes</a></li>
-                    <li><a href="/Achievments " >Logros</a></li>
-                    <li><a href="/Colaboration" >Como colaborar</a></li>
+                    <li><a href="/Cases/Achievments" >Logros</a></li>
+                    <li><a href="/Cases/Clients " >Clientes</a></li>
+                    <li><a href="/Cases/Colaboration" >Colaboracion</a></li>
                 </ul>
             </header>
 
